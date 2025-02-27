@@ -1,0 +1,20 @@
+iframe .form, iframe .acknowledge {
+    max-width: 100% !important;
+}
+.form {
+    max-width: 100% !important;
+}
+.acknowledge {
+    max-width: 100% !important;
+}
+.form button{
+    margin-top: 230px;
+}
+.form-field{
+    height: 80px;
+}
+.form-field select, 
+.form-field input, 
+.form-field textarea{
+    height: 62px;
+}
