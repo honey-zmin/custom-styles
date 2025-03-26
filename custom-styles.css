@@ -1,20 +1,108 @@
-iframe .form, iframe .acknowledge {
+iframe .form,
+iframe .acknowledge {
     max-width: 100% !important;
 }
+
 .form {
     max-width: 100% !important;
 }
+
 .acknowledge {
     max-width: 100% !important;
 }
-.form button{
-    margin-top: 230px;
+
+.form button {
+    background: linear-gradient(90deg, #984fff, #ff863e);
+    border-radius: 30px;
+    margin-top: 280px;
+    height: 50px;
+    font-size: 18px;
+    font-size: 22px;
+    font-weight: 700;
+    height: 50px;
+    justify-content: center;
+    line-height: 30px;
+    padding: 15px 30px;
+    text-align: center;
+    color: #984fff;
+    opacity: 1;
 }
-.form-field{
-    height: 80px;
+
+button:disabled,
+button:disabled:hover,
+button:disabled:active {
+    opacity: 1;
 }
-.form-field select, 
-.form-field input, 
-.form-field textarea{
-    height: 62px;
+
+.form-wrapper {
+    padding: 0px;
+}
+
+.branding,
+.privacy,
+.form legend {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.form-field {
+    height: 100px;
+}
+
+.form-field select,
+.form-field input,
+.form-field textarea {
+    height: 75px;
+    padding-top: 45px;
+}
+
+.form textarea {
+    min-height: 280px;
+}
+
+input,
+textarea,
+select,
+label {
+    font-size: 20px;
+}
+
+input+label,
+textarea+label,
+select+label {
+    font-size: 18px;
+}
+
+.form-field label {
+    padding: 14px 0px 4px 12px;
+}
+
+@media (max-width: 480px) {
+    .form button {
+        margin-top: 120px;
+    }
+
+    .form button {
+        margin-top: 26px;
+    }
+}
+
+@media (max-width: 767px) {
+    .form-field {
+        height: 90px;
+    }
+
+    .form button {
+        margin-top: 120px;
+    }
+
+    .form button {
+        margin-top: 26px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .form-wrapper {
+        padding: 0px;
+    }
 }
